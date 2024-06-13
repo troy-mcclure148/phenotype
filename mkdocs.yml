@@ -1,0 +1,232 @@
+site_name: Phenotype.dev
+
+
+theme:
+    name: material
+    #favicon: assets/favicon.png
+    palette: # dark scheme toggle on material + dark orange
+      - scheme: default
+        primary: red
+        toggle:
+          icon: material/toggle-switch-off-outline
+          name: Switch to dark mode
+      - scheme: slate
+        primary: red
+        toggle:
+          icon: material/toggle-switch
+          name: Switch to light mode
+    features:
+        - content.action.edit
+        - content.action.view
+        - content.code.copy
+        - navigation.tabs
+        #- navigation.instant
+        #- navigation.sections # The bold sections in navigation
+        - navigation.tracking
+        - navigation.indexes
+        - content.tabs.link
+        - toc.follow
+
+      #  - toc.integrate
+    logo: assets/logo.png
+    font:
+      text: Roboto
+extra_css: 
+  - assets/extra.css
+  - assets/neoteroi-mkdocs.css
+  #- https://unpkg.com/mermaid@8.5.1/dist/mermaid.css #404 ? 
+extra_javascript:
+  - assets/extra.js
+  #- assets/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - https://unpkg.com/mermaid@8.5.1/dist/mermaid.min.js
+ # - https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML
+
+  
+
+extra:
+  version:
+    provider: mike
+  analytics:
+    provider: google
+    property: G-5XM6BXT041
+
+
+#extra:
+#  generator: false
+
+
+plugins:
+  - search
+  - render_swagger:
+      allow_arbitrary_locations: true
+  - neoteroi.mkdocsoad
+  - mkdocs-jupyter #https://github.com/danielfrg/mkdocs-jupyter
+  - section-index #https://github.com/oprypin/mkdocs-section-index
+  #- swagger
+  #- awesome-pages https://github.com/lukasgeiter/mkdocs-awesome-pages-plugin
+  - autolinks 
+
+  #- categories
+  #- exclude-search # https://github.com/chrieke/mkdocs-exclude-search
+  #- semiliterate # http://studioinfinity.org/semiliterate/mkdocs_semiliterate/plugin/
+  #- awesome-list
+  #- pagenav-generator #https://github.com/Andre601/mkdocs-pagenav-generator
+
+
+
+markdown_extensions:
+  - pymdownx.details
+  - pymdownx.tasklist:
+        custom_checkbox: true
+  - codehilite
+  - extra
+  - tables
+  - neoteroi.cards
+  - meta
+  - fenced_code
+  - toc:
+        permalink: "#"
+        baselevel: 1
+        toc_depth: 3
+  - admonition
+  - pymdownx.inlinehilite
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_div_format
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - pymdownx.blocks.admonition
+  - pymdownx.blocks.details
+
+
+nav:
+  - 'Disorders':
+      - 'disorders/disorders.md'
+      - 'Hypersensitivity': 
+        - 'Autism Spectrum Disorder (ASD)': 'disorders/asd.md'
+        - 'Sensory Processing Disorder': 'disorders/sensory-processing-disorder.md'
+        - 'Multiple Chemical Sensitivity': 'disorders/multiple-chemical-sensitivity.md'
+        - 'Post-Traumatic Stress Disorder (PTSD)': 'disorders/ptsd.md'
+      - 'Hyperactivity': 
+        - 'Attention-Deficit/Hyperactivity Disorder (ADHD)': 'disorders/adhd.md'
+        - 'Mood Disorders': 'disorders/mood-disorders.md'
+        - 'Generalized Anxiety Disorder': 'disorders/generalized-anxiety-disorder.md'
+      - 'Hypermobility': 
+        - 'Ehlers-Danlos Syndrome, Hypermobility Type (EDS-HT)': 'disorders/eds-ht.md'
+        - 'Subcutaneous Adipose Disorders': 'disorders/subcutaneous-adipose-disorders.md'
+        - 'Extracellular Matrix': 'genetics/extracellular-matrix.md'
+        - 'Temporomandibular Joint Disorder (TMJ)': 'disorders/tmj.md'
+      - 'Hyperreactivity': 
+        - 'Mast Cell Activation Syndrome (MCAS)': 'disorders/mcas.md'
+        - 'Irritable Bowel Syndrome': 'disorders/irritable-bowel-syndrome.md'
+        - 'Gastroparesis': 'disorders/gastroparesis.md'
+        - 'Chronic Inflammatory Response Syndrome (CIRS)': 'disorders/cirs.md'
+      - 'Fatigue & Pain': 
+        - 'Chronic Fatigue Syndrome (CFS) / Myalgic Encephalomyelitis (ME)': 'disorders/cfs-me.md'
+        - 'Fibromyalgia (FM)': 'disorders/fm.md'
+        - 'Chronic Regional Pain Syndrome': 'disorders/chronic-regional-pain-syndrome.md'
+      - 'Neurological': 
+        #- 'Pseudotumor Cerebri': 'disorders/pseudotumor-cerebri.md'
+        #- 'Benign Intracranial Hypertension': 'disorders/benign-intracranial-hypertension.md'
+        #- 'Acquired Chiari Malformation': 'disorders/acquired-chiari-malformation.md'
+        #- 'Neuropathies': 'disorders/neuropathies.md'
+        #- 'Hydrocephalus': 'disorders/hydrocephalus.md'
+        - 'Parkinsons': 'disorders/early-onset-parkinsons-disease.md'
+        - 'Restless Leg Syndrome': 'disorders/restless-leg-syndrome.md'
+        - 'Narcolepsy': 'disorders/narcolepsy.md'
+
+
+      - 'Immune':
+          - 'Raynauds Phenomena': 'disorders/raynauds-phenomena.md'
+          - 'Immune Dysregulation': 
+            - 'Combined Variable Immunodeficiency Disease (CVID)': 'disorders/cvid.md'
+            - 'IgA Deficiency': 'disorders/iga-deficiency.md'
+            - 'Multiple Sclerosis (MS)': 'disorders/ms.md'
+            #- 'Mixed Connective Tissue Disorder': 'disorders/mixed-connective-tissue-disorder.md'
+            #- 'Eosinophilic Disorders': 'disorders/eosinophilic-disorders.md'
+            #- 'Chronic Inflammatory Response Syndrome (CIRS)': 'disorders/cirs.md'
+      - 'Hormonal':
+          - 'Congenital Adrenal Hyperplasia (CAH)': 'disorders/cah.md'
+          - 'Polycystic Ovary Syndrome (PCOS)': 'disorders/pcos.md'
+          - 'Addisons': 'disorders/addisons-disease.md'
+          - 'Hashimotos Thyroiditis': 'disorders/hashimotos-thyroiditis.md'
+          - 'Thyroid Disorders': 'disorders/thyroid-disorders.md'
+      
+      - 'Other': 
+        - 'Medullary Sponge Kidney': 'disorders/medullary-sponge-kidney.md'
+        - 'Pyroluria': 'disorders/pyroluria.md'
+        #- 'Erythromelalgia': 'disorders/erythromelalgia.md'
+      
+  - 'Genetics':
+      - 'genes/c6/rccx/rccx.md'
+      - 'Genes':
+        - 'Chromosome 6':
+          - 'genes/c6/c6.md'
+          - 'Gamma Block': 
+            - 'genes/c6/gamma-block.md'
+            - 'RCCX':
+              - 'genes/c6/rccx/rccx.md'
+              - 'CYP21A2': 
+                - 'genes/c6/rccx/cyp21a2.md'
+                - 'P-H62L': 'genes/c6/rccx/p-h62l.md'
+                - 'Advanced': 'genes/c6/rccx/advanced.md'
+              - 'C4': 
+                - 'genes/c6/rccx/c4.md'
+                - 'HERV-K': 'genes/c6/rccx/herv-k.md'
+              - 'TNXB': 'genes/c6/rccx/tnxb.md'
+              - 'STK19': 'genes/c6/rccx/stk19.md'
+            - 'Notch': 'genes/c6/notch.md'
+
+        - 'Chromosome 12':
+          - 'genes/c12/c12.md'
+          - 'Vitamin D': 'genes/c12/vit-d.md'
+
+        - 'Chromosome 16':
+          - 'genes/c16/c16.md'
+          - 'TPSAB1': 'genes/c16/tpsab1.md'
+
+        - 'Chromosome 17':
+          - 'ATF6B': 'genes/c17/atf6b.md'
+          - 'CAPN3': 'genes/c17/capn3.md'
+
+        - 'Chromosome 14':
+          - 'Serpin A1': 'genes/c14/serpin-a1.md'
+          - 'Serpin B1': 'genes/c14/serpin-b1.md'
+          - 'Serpin B2': 'genes/c14/serpin-b2.md'
+          - 'GSTZ1': 'genes/gstz1.md'
+        - 'Chromosome 11':
+          - 'GABA': 'genes/c11/gaba.md'
+
+        - 'Chromosome 19':
+          - 'GSD': 'genes/c19/gsd.md'
+        - 'Chromosome 21':
+          - 'CBS': 'genes/cbs.md'
+
+
+
+
+
+      - 'Testing': 
+        - 'genetics/testing.md'
+        - 'Personal DNA': 'genetics/personal-dna.md'
+        - 'MTHFR': 'genes/mthfr.md'
+
+      - 'Epigenetics': 'genetics/epigenetics.md'
+  - 'Management':
+      - 'Treatment': 'management/treatment.md'
+      - 'Diet': 
+          - 'management/diet/diet.md'
+          - 'Minerals': 'management/diet/minerals.md'
+          - 'Nutrients': 'management/diet/nutrients.md'
+          - 'Choline and Carnitine': 'management/diet/choline-and-carnitine.md'
+      - 'Supplements':
+          - 'LDN': 'supplements/ldn.md'
+          - 'NAC': 'supplements/nac.md'
+          - 'Peptides': 'supplements/peptides.md'
+          - 'Palmitoylethanolamide': 'supplements/palmitoylethanolamide.md'

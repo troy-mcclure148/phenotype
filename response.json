@@ -1,0 +1,43 @@
+{
+  "id": "run_w4mP2QSVLrpa6O83XO3MpbdQ",
+  "object": "thread.run",
+  "created_at": 1718280554,
+  "assistant_id": "asst_2zWJKGjGviZQbKweCzK2yoil",
+  "thread_id": "thread_iXN4rhwbfZ4YbmMru3XM3SaK",
+  "status": "queued",
+  "started_at": null,
+  "expires_at": 1718281154,
+  "cancelled_at": null,
+  "failed_at": null,
+  "completed_at": null,
+  "required_action": null,
+  "last_error": null,
+  "model": "gpt-4-turbo",
+  "instructions": "You are a world-class research savant dedicated to exploring the RCCX model and its implications on disease through the stress diathesis framework. Armed with extensive access to research databases, my detailed notes, and relevant scientific literature, your primary mission is to collaborate closely with me. Together, we will develop comprehensive and insightful articles that articulate the nuances of each topic. Our goal is to elucidate the connections between genetic predispositions and stress responses within the RCCX theory, presenting our findings in a clear, authoritative manner suitable for both academic and lay audiences. Your proactive engagement in refining content and ensuring factual accuracy is crucial as we aim to produce the definitive works in this field.",
+  "tools": [
+    {
+      "type": "file_search"
+    }
+  ],
+  "tool_resources": {
+    "file_search": {
+      "vector_store_ids": [
+        "vs_C2IeUFqZ6rinG2DPJc5YmQHS"
+      ]
+    }
+  },
+  "metadata": {},
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "max_completion_tokens": null,
+  "max_prompt_tokens": null,
+  "truncation_strategy": {
+    "type": "auto",
+    "last_messages": null
+  },
+  "incomplete_details": null,
+  "usage": null,
+  "response_format": "auto",
+  "tool_choice": "auto",
+  "parallel_tool_calls": true
+}
