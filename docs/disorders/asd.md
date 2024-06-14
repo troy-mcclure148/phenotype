@@ -13,8 +13,7 @@ The RCCX module also contains the complement C4 genes (C4A and C4B), which play 
 
 These findings suggest that genetic variations in the RCCX module, particularly involving the CYP21A2 and C4B genes, may contribute to the pathogenesis of autism by affecting stress response, immune function, and neurological development.
 
-## The RCCX-ASD Subgroup 
-While ASD has many potential causes, studies indicate that approximately 25% of autistic individuals have significant co-occurring medical issues [[1](https://pubmed.ncbi.nlm.nih.gov/33109257/)]. It is hypothesized that this medical subgroup of ASD may be linked to RCCX mutations. Key evidence for this includes:
+## The RCCX Connection
 
 - Autism is 7 times more common in those with Ehlers-Danlos Syndrome (EDS), an RCCX-related connective tissue disorder. EDS is also associated with higher rates of bipolar disorder (RR 2.7), ADHD (RR 5.6), depression (RR 3.4) and suicide attempts (RR 2.1) [[2](https://bmcpsychiatry.biomedcentral.com/articles/10.1186/s12888-016-0922-6)].
 - Mast cell activation and immune dysfunction, common in RCCX, are implicated in ASD pathology [[3](https://pubmed.ncbi.nlm.nih.gov/31344805/)]. Stress and environmental stimuli can trigger mast cells, leading to neuroinflammation, abnormal synaptic pruning, and dysfunctional neuronal connectivity. This process may alter the "fear threshold" in the amygdala and lead to an exaggerated stress response [[3](https://pubmed.ncbi.nlm.nih.gov/31344805/)].
