@@ -110,44 +110,44 @@ nav:
       - 'disorders/disorders.md'
       - 'Hypersensitivity': 
         - 'Autism Spectrum Disorder (ASD)': 'disorders/asd.md'
-        - 'Sensory Processing Disorder': 'disorders/sensory-processing-disorder.md'
-        - 'Multiple Chemical Sensitivity': 'disorders/multiple-chemical-sensitivity.md'
-        - 'Post-Traumatic Stress Disorder (PTSD)': 'disorders/ptsd.md'
+        #- 'Sensory Processing Disorder': 'disorders/sensory-processing-disorder.md'
+        #- 'Multiple Chemical Sensitivity': 'disorders/multiple-chemical-sensitivity.md'
+        #- 'Post-Traumatic Stress Disorder (PTSD)': 'disorders/ptsd.md'
       - 'Hyperactivity': 
         - 'Attention-Deficit/Hyperactivity Disorder (ADHD)': 'disorders/adhd.md'
-        - 'Mood Disorders': 'disorders/mood-disorders.md'
-        - 'Generalized Anxiety Disorder': 'disorders/generalized-anxiety-disorder.md'
+        #- 'Mood Disorders': 'disorders/mood-disorders.md'
+        #- 'Generalized Anxiety Disorder': 'disorders/generalized-anxiety-disorder.md'
       - 'Hypermobility': 
-        - 'Ehlers-Danlos Syndrome, Hypermobility Type (EDS-HT)': 'disorders/eds-ht.md'
-        - 'Subcutaneous Adipose Disorders': 'disorders/subcutaneous-adipose-disorders.md'
+        - 'Ehlers-Danlos Syndrome, Hypermobility Type (EDS-HT)': 'disorders/eds.md'
+       # - 'Subcutaneous Adipose Disorders': 'disorders/subcutaneous-adipose-disorders.md'
         - 'Extracellular Matrix': 'genetics/extracellular-matrix.md'
-        - 'Temporomandibular Joint Disorder (TMJ)': 'disorders/tmj.md'
+        #- 'Temporomandibular Joint Disorder (TMJ)': 'disorders/tmj.md'
       - 'Hyperreactivity': 
         - 'Mast Cell Activation Syndrome (MCAS)': 'disorders/mcas.md'
-        - 'Irritable Bowel Syndrome': 'disorders/irritable-bowel-syndrome.md'
-        - 'Gastroparesis': 'disorders/gastroparesis.md'
-        - 'Chronic Inflammatory Response Syndrome (CIRS)': 'disorders/cirs.md'
+        #- 'Irritable Bowel Syndrome': 'disorders/irritable-bowel-syndrome.md'
+        #- 'Gastroparesis': 'disorders/gastroparesis.md'
+        #- 'Chronic Inflammatory Response Syndrome (CIRS)': 'disorders/cirs.md'
       - 'Fatigue & Pain': 
         - 'Chronic Fatigue Syndrome (CFS) / Myalgic Encephalomyelitis (ME)': 'disorders/cfs-me.md'
         - 'Fibromyalgia (FM)': 'disorders/fm.md'
-        - 'Chronic Regional Pain Syndrome': 'disorders/chronic-regional-pain-syndrome.md'
-      - 'Neurological': 
+        #- 'Chronic Regional Pain Syndrome': 'disorders/chronic-regional-pain-syndrome.md'
+      #- 'Neurological': 
         #- 'Pseudotumor Cerebri': 'disorders/pseudotumor-cerebri.md'
         #- 'Benign Intracranial Hypertension': 'disorders/benign-intracranial-hypertension.md'
         #- 'Acquired Chiari Malformation': 'disorders/acquired-chiari-malformation.md'
         #- 'Neuropathies': 'disorders/neuropathies.md'
         #- 'Hydrocephalus': 'disorders/hydrocephalus.md'
-        - 'Parkinsons': 'disorders/early-onset-parkinsons-disease.md'
-        - 'Restless Leg Syndrome': 'disorders/restless-leg-syndrome.md'
-        - 'Narcolepsy': 'disorders/narcolepsy.md'
+        #- 'Parkinsons': 'disorders/early-onset-parkinsons-disease.md'
+        #- 'Restless Leg Syndrome': 'disorders/restless-leg-syndrome.md'
+        #- 'Narcolepsy': 'disorders/narcolepsy.md'
 
 
       - 'Immune':
           - 'Raynauds Phenomena': 'disorders/raynauds-phenomena.md'
-          - 'Immune Dysregulation': 
-            - 'Combined Variable Immunodeficiency Disease (CVID)': 'disorders/cvid.md'
-            - 'IgA Deficiency': 'disorders/iga-deficiency.md'
-            - 'Multiple Sclerosis (MS)': 'disorders/ms.md'
+          #- 'Immune Dysregulation': 
+            #- 'Combined Variable Immunodeficiency Disease (CVID)': 'disorders/cvid.md'
+            #- 'IgA Deficiency': 'disorders/iga-deficiency.md'
+            #- 'Multiple Sclerosis (MS)': 'disorders/ms.md'
             #- 'Mixed Connective Tissue Disorder': 'disorders/mixed-connective-tissue-disorder.md'
             #- 'Eosinophilic Disorders': 'disorders/eosinophilic-disorders.md'
             #- 'Chronic Inflammatory Response Syndrome (CIRS)': 'disorders/cirs.md'
@@ -158,9 +158,9 @@ nav:
           - 'Hashimotos Thyroiditis': 'disorders/hashimotos-thyroiditis.md'
           - 'Thyroid Disorders': 'disorders/thyroid-disorders.md'
       
-      - 'Other': 
-        - 'Medullary Sponge Kidney': 'disorders/medullary-sponge-kidney.md'
-        - 'Pyroluria': 'disorders/pyroluria.md'
+      #- 'Other': 
+        #- 'Medullary Sponge Kidney': 'disorders/medullary-sponge-kidney.md'
+        #- 'Pyroluria': 'disorders/pyroluria.md'
         #- 'Erythromelalgia': 'disorders/erythromelalgia.md'
       
   - 'Genetics':
@@ -182,7 +182,7 @@ nav:
               - 'TNXB': 'genes/c6/rccx/tnxb.md'
               - 'STK19': 'genes/c6/rccx/stk19.md'
             - 'Notch': 'genes/c6/notch.md'
-
+            - 'ATF6B': 'genes/c17/atf6b.md'
         - 'Chromosome 12':
           - 'genes/c12/c12.md'
           - 'Vitamin D': 'genes/c12/vit-d.md'
@@ -192,7 +192,6 @@ nav:
           - 'TPSAB1': 'genes/c16/tpsab1.md'
 
         - 'Chromosome 17':
-          - 'ATF6B': 'genes/c17/atf6b.md'
           - 'CAPN3': 'genes/c17/capn3.md'
 
         - 'Chromosome 14':
@@ -226,7 +225,7 @@ nav:
           - 'Nutrients': 'management/diet/nutrients.md'
           - 'Choline and Carnitine': 'management/diet/choline-and-carnitine.md'
       - 'Supplements':
-          - 'LDN': 'supplements/ldn.md'
-          - 'NAC': 'supplements/nac.md'
-          - 'Peptides': 'supplements/peptides.md'
-          - 'Palmitoylethanolamide': 'supplements/palmitoylethanolamide.md'
+          - 'LDN': 'management/supplements/ldn.md'
+          - 'NAC': 'management/supplements/nac.md'
+          - 'Peptides': 'management/supplements/peptides.md'
+          - 'Palmitoylethanolamide': 'management/supplements/palmitoylethanolamide.md'
